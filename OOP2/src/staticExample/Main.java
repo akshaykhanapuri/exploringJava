@@ -11,7 +11,11 @@ public class Main {
         System.out.println(Human.population);
 
         // Singleton Demo
-        SingletonDemo obj = SingletonDemo.getInstance();
+        SingletonDemo obj1 = SingletonDemo.getInstance();
+        SingletonDemo obj2 = SingletonDemo.getInstance();
+        SingletonDemo obj3 = SingletonDemo.getInstance();
+
+        // Here only one obj is created for the class SingletonDemo and all the new objs are pointing to the same obj
 
     }
 }
