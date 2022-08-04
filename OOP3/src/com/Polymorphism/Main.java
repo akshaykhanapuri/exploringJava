@@ -20,7 +20,7 @@ public class Main {
                         // the method of the child class) this is known as upcasting.
 
         Shapes square3 = new Square();
-        square3.test(); // This will result in error because the method is not present in the parent class. To access the test method,
+        //square3.test(); // This will result in error because the method is not present in the parent class. To access the test method,
                         // you will need to create a new object that is referenced by a variable of the child class
                         // Square square3 =  new Square()
 
